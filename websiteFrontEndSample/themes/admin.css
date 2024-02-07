@@ -9,13 +9,13 @@
 }
 
 .nav-side-menu li.sign-out {
-  border-left: 3px solid darkred;  
-  background-color: rgba(255,0,0,.2);
+  border-left: 3px solid rgb(235, 141, 11);  
+  background-color: rgb(0, 0, 0);
 }
 
 .nav-side-menu li.sign-out:hover {
-  border-left: 3px solid darkred;
-  background-color: darkred;
+  border-left: 3px solid rgb(235, 141, 11);
+  background-color: black;
 }
 
 /* Pool Statistics */

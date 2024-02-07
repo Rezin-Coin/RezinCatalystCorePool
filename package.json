@@ -1,12 +1,12 @@
 {
-	"name": "cryptonote-nodejs-pool",
-	"version": "1.4.0",
+	"name": "rezin-catalyst-core",
+	"version": "1.0.0",
 	"license": "GPL-2.0",
 	"Original author": "Daniel Vandal",
-	"Maintained by": "Musclesonvacation",
+	"Maintained by": "Team Rezin Catalyst Core",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
+		"url": "https://github.com/Rezin-Coin/RezinCatalystCorePool.git"
 	},
 	"dependencies": {
 		"async": "*",
@@ -14,8 +14,6 @@
 		"bignum": "*",
 		"bufferutil": "*",
 		"cli-color": "*",
-		"cryptoforknote-util": "git://github.com/MoneroOcean/node-cryptoforknote-util.git",
-		"cryptonight-hashing": "git://github.com/MoneroOcean/node-cryptonight-hashing.git",
 		"dateformat": "*",
 		"discord.js": "^12.5.1",
 		"domexception": "*",
@@ -26,7 +24,6 @@
 		"redis": "*",
 		"socket.io": "*",
 		"time-ago": "*",
-		"turtlecoin-crypto": "git://github.com/turtlecoin/turtlecoin-crypto.git",
 		"utf-8-validate": "*"
 	},
 	"engines": {

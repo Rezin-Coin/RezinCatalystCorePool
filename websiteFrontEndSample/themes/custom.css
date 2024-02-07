@@ -1,12 +1,12 @@
 /* Insert your pool's unique CSS here */
 
 .nav-side-menu {
-    background: #164450;
+    background: rgb(0, 0, 0);
 }
 
 .nav-side-menu .brand {
-    background: #164450;
-    color: #fff;
+    background: rgb(0, 0, 0);
+    color: orange;
     padding: 10px;
 }
 .nav-side-menu .brand a {
@@ -130,4 +130,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c89a0', end
     /*display: block;*/
     /*text-shadow: none;*/
     margin-top: -3px;
-}
+}}
