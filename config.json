@@ -1,9 +1,9 @@
 {
-    "poolHost": "your.pool.host",
-    "coin": "TurtleCoin",
-    "symbol": "TRTL",
+    "poolHost": "192.168.0.233",
+    "coin": "RezinCatalystCore",
+    "symbol": "RZCC",
     "coinUnits": 100,
-    "coinDecimalPlaces": 4,
+    "coinDecimalPlaces": 2,
     "coinDifficultyTarget": 30,
     "blockchainExplorer": "https://explorer.turtlecoin.lol/block.html?hash={id}",
     "transactionExplorer": "https://explorer.turtlecoin.lol/transaction.html?hash={id}",
@@ -28,7 +28,7 @@
         "enabled": true,
         "mergedMining": false,
         "clusterForks": "auto",
-        "poolAddress": "your TRTL Wallet address ",
+        "poolAddress": "RZCCePA6mwa6tdkKZAva6zQxSwCpJt18i5YamFornWJc5cKpprxELv4DhZ3yTEs2LTiesWQ5MdhoS6mZXNQA4izG1gDbh4mZ7t",
         "intAddressPrefix": null,
         "blockRefreshInterval": 1000,
         "minerTimeout": 3600,
@@ -131,21 +131,21 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "admin Api Password",
+        "password": "x",
         "trustProxyIP": true,
 		"ssl": false
     },
     "daemon": {
-        "host": "127.0.0.1",
+        "host": "192.168.0.233",
         "port": 11898
     },
     "wallet": {
-        "host": "127.0.0.1",
+        "host": "192.168.0.233",
         "port": 8070,
         "password": "wallet RPC password"
     },
     "redis": {
-        "host": "127.0.0.1",
+        "host": "192.168.0.233",
         "port": 6379,
         "auth": null,
         "db": 0,
@@ -200,7 +200,7 @@
             "path": "/usr/sbin/sendmail"
         },
         "smtp": {
-            "host": "127.0.0.1",
+            "host": "192.168.0.233",
             "port": 587,
             "secure": false,
             "auth": {
