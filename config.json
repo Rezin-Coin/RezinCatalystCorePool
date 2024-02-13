@@ -1,16 +1,16 @@
 {
-    "poolHost": "192.168.0.233",
+    "poolHost": "https://rzcc.ddns.net",
     "coin": "RezinCatalystCore",
     "symbol": "RZCC",
-    "coinUnits": 100,
+    "coinUnits": 1000,
     "coinDecimalPlaces": 2,
     "coinDifficultyTarget": 30,
     "blockchainExplorer": "https://explorer.turtlecoin.lol/block.html?hash={id}",
     "transactionExplorer": "https://explorer.turtlecoin.lol/transaction.html?hash={id}",
     "daemonType": "bytecoin",
-    "cnAlgorithm": "argon2",
+    "cnAlgorithm": "cn_lite_v2",
     "cnVariant": 2,
-    "cnBlobType": 2,
+    "cnBlobType": 0,
     "logging": {
         "files": {
             "level": "info",
@@ -28,7 +28,7 @@
         "enabled": true,
         "mergedMining": false,
         "clusterForks": "auto",
-        "poolAddress": "RZCCePA6mwa6tdkKZAva6zQxSwCpJt18i5YamFornWJc5cKpprxELv4DhZ3yTEs2LTiesWQ5MdhoS6mZXNQA4izG1gDbh4mZ7t",
+        "poolAddress": "RZCCXHm6ZE2htEWVKuSRBbAGqNnbwc5ijTLnxoyGYSKRAtifZ8F97tBM2m6zDoXqQ2WPFDzbifTAF2hBeiEyjuRH6ATbrhusEF",
         "intAddressPrefix": null,
         "blockRefreshInterval": 1000,
         "minerTimeout": 3600,
@@ -36,23 +36,23 @@
             {
                 "port": 3333,
                 "difficulty": 50000,
-                "desc": "Tortoise (Low end)"
+                "desc": "Low Hash Rates Up to 1000 H/s"
             },
             {
                 "port": 5555,
                 "difficulty": 500000,
-                "desc": "Swimming Leatherback (Mid range)"
+                "desc": "Mid Hash Rates Up to 10000 H/s"
             },
             {
                 "port": 7777,
                 "difficulty": 1000000,
-                "desc": "Turtle in low Earth orbit (High end)"
+                "desc": "High Hash Rates Up to 100000 H/s"
             }
 			,
             {
                 "port": 8888,
                 "difficulty": 2000000,
-                "desc": "Jet Turtle ! (OMG)"
+                "desc": "Mega Hash Rates Up to 1000000 H/s"
             }
         ],
         "varDiff": {
@@ -136,16 +136,16 @@
 		"ssl": false
     },
     "daemon": {
-        "host": "192.168.0.233",
-        "port": 11898
+        "host": "127.0.0.1",
+        "port": 21000
     },
     "wallet": {
-        "host": "192.168.0.233",
-        "port": 8070,
-        "password": "wallet RPC password"
+        "host": "127.0.0.1",
+        "port": 21100,
+        "password": "x"
     },
     "redis": {
-        "host": "192.168.0.233",
+        "host": "127.0.0.1",
         "port": 6379,
         "auth": null,
         "db": 0,
@@ -200,12 +200,12 @@
             "path": "/usr/sbin/sendmail"
         },
         "smtp": {
-            "host": "192.168.0.233",
+            "host": "0.0.0.0",
             "port": 587,
             "secure": false,
             "auth": {
-                "user": "donotreply@allcoinspool.com",
-                "pass": "cin0h##~~LMAO!"
+                "user": "",
+                "pass": ""
             },
             "tls": {
                 "rejectUnauthorized": false
@@ -217,9 +217,9 @@
         }
     },	
 	"discord": {
-        "enabled": false,
-        "token": "",
-        "channel": ""
+        "enabled": true,
+        "token": "RZCC",
+        "channel": "https://discord.gg/RezinCatalyst"
     },
     "telegram": {
         "enabled": false,

@@ -1,11 +1,11 @@
-var parentCoin = "TurtleCoin";
+var parentCoin = "RezinCatalystCore";
 
-var api = "Api adress and port sample.com:8117";
+var api = "rczz.ddns.net:8117";
 var poolHost = "example.com";
 
-var email = "support email";
+var email = "rczz.ddns.net";
 var telegram = "Telegram Adress";
-var discord = "Discord Address";
+var discord = "https://discord.gg/RezinCatalyst";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD", "{symbol}-TRTL"];
 
